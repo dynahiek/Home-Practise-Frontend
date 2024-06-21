@@ -1,0 +1,43 @@
+/* ===========Achievments=========== */
+.about_achievments{
+    margin-top: 3rem;
+}
+.about_achievments-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 6rem;
+}
+.about_achievment-right{
+    padding-right: 5rem;
+}
+.about_achievment-right > p{
+    margin: 1.6rem 0 2.5rem;
+}
+.achievments_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.achievment_card{
+    background: var(--color-bg1);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+.achievment_card:hover {
+    background: rgb(23, 23, 153);
+    box-shadow: 0 0 3rem white;
+}
+.achievment_icon{
+    background: var(--color-danger);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.about_achievment-left img{
+    box-shadow: 0 0 50px blanchedalmond;
+    border-radius: 3rem;
+}
